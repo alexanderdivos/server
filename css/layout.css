@@ -4,7 +4,7 @@ div {
 }
 div.article {
 	position: relative;
-	width:31%; 
+	width: 32%; 
 	height: auto;
 	margin:0 auto; 
 	text-align: center; 
@@ -23,6 +23,18 @@ div.article {
 }
 div.play {
 	position: relative;
+	width: 100%;
+	height: auto;
+	margin:0 auto; 
+	text-align: center;
+	color: #221111;
+	opacity: 0;
+	filter: aplpha(opacity=0);
+	z-index: 5;
+	font-size: 140%;
+}
+div.vote {
+	position: relative;
 	width: 0.1%;
 	height: auto;
 	margin:0 auto; 
@@ -38,7 +50,14 @@ div.play {
 	filter: aplpha(opacity=75);
 	word-wrap: break-word;
 	z-index: -2;
-	font-size: 140%;
+	font-size: 80%;
+}
+a.vote {
+	color: #FFFFFF;
+	font-size: 200%;
+}
+a.vote:hover {
+	color: #DD2222;
 }
 ul {
 	list-style-type: none;
