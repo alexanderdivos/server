@@ -52,6 +52,26 @@ div.vote {
 	z-index: -2;
 	font-size: 80%;
 }
+div.staff {
+	position: relative;
+	height: auto;
+	margin:0 auto; 
+	width: 32%; 
+	text-align: center; 
+	display: table-cell;
+    border-radius: 25px;
+	border-color: #FFEEEE;
+	border-width: 4px;
+	border-style: inset;
+	color: #222222;
+	background-color: #CCCCCC;
+	opacity: 0.9;
+	filter: aplpha(opacity=90);
+	word-wrap: break-word;
+	z-index: -2;
+	font-size: 150%;
+	columns: 3;
+}
 a.vote {
 	color: #FFFFFF;
 	font-size: 200%;

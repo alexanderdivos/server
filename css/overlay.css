@@ -15,7 +15,6 @@ img:not(.header) {
 img.header {
 	opacity: 1.0;
 	filter: aplpha(opacity=40);
-	position: fixed;
 }
 img.youtube {
 	right: 10px;
